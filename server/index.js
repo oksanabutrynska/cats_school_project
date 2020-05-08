@@ -20,5 +20,5 @@ app.post('/subscribe', (req, res) => {
     res.sendStatus(400);
 })
 
-const port = process.env.port || 80;
+const port = process.env.port || 3000;
 app.listen(port, () => {console.log(process.env.port);console.log(`server started at ${port}`)});
